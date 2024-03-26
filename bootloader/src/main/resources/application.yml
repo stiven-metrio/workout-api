@@ -1,2 +1,15 @@
 server:
   port: 8050
+spring:
+  application:
+    name: backend
+  ### Spring Data ###
+  datasource:
+    password: 12345
+    url: jdbc:postgresql://localhost:5432/workout
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+  liquibase:
+    change-log: classpath:liquibase/master-changelog.xml
