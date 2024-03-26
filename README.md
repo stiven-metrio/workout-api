@@ -8,12 +8,12 @@
 ## How to run it locally?
 
 ### Using IntelliJ
-1) Go to docker folder `cd docker`
+1) Go to docs folder `cd docs`
 2) Run the docker compose file `docker-compose up -d`
 3) Run the main method in **BackendApplication.java**
 
 ### Using Terminal
-1) Go to docker folder `cd docker`
+1) Go to docs folder `cd docs`
 2) Run the docker compose file `docker-compose up -d`
 3) Return to root folder `cd ..`
 4) Build the project `mvn clean package`
