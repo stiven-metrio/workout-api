@@ -34,3 +34,5 @@ build/
 
 /docs/pgadmin-data
 /docs/postgres_data
+
+.editorconfig

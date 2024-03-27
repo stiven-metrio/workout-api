@@ -16,6 +16,11 @@
       <column name="type" type="varchar(60)"/>
       <column name="category" type="varchar(60)"/>
       <column name="note" type="varchar(300)"/>
+      <column name="createddate" type="TIMESTAMP"/>
+      <column name="createdby" type="varchar(70)"/>
+      <column name="modifieddate" type="TIMESTAMP"/>
+      <column name="modifiedby" type="varchar(70)"/>
+
     </createTable>
   </changeSet>
 </databaseChangeLog>
