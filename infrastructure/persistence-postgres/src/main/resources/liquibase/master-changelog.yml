@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      file: liquibase/changelog/20240326_add_workout_def_table.yml
+      relativeToChangelogFile: false
