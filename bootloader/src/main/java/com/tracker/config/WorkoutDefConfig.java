@@ -1,9 +1,9 @@
 package com.tracker.config;
 
-import com.tracker.IWorkoutDefCreate;
-import com.tracker.WorkoutDefCreate;
-import com.tracker.WorkoutDefCreateCommandHandler;
-import com.tracker.definition.IWorkoutDefRepository;
+import com.tracker.workoutdef.create.IWorkoutDefCreate;
+import com.tracker.workoutdef.create.WorkoutDefCreate;
+import com.tracker.workoutdef.create.WorkoutDefCreateCommandHandler;
+import com.tracker.workoutdef.IWorkoutDefRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

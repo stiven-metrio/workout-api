@@ -1,6 +1,6 @@
-package com.tracker.definition.application;
+package com.tracker.workoutdef.application;
 
-import com.tracker.definition.domain.WorkoutDefId;
+import com.tracker.workoutdef.domain.WorkoutDefId;
 import com.tracker.common.ICommand;
 import lombok.Getter;
 import lombok.Setter;

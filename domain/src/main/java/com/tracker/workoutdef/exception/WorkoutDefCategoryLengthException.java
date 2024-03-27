@@ -1,4 +1,4 @@
-package com.tracker.definition.exception;
+package com.tracker.workoutdef.exception;
 
 import com.tracker.common.exception.TrackerException;
 

@@ -1,8 +1,8 @@
-package com.tracker.definition;
+package com.tracker.workoutdef;
 
-import com.tracker.definition.domain.WorkoutDef;
-import com.tracker.definition.domain.WorkoutDefId;
-import com.tracker.definition.domain.WorkoutDefName;
+import com.tracker.workoutdef.domain.WorkoutDef;
+import com.tracker.workoutdef.domain.WorkoutDefId;
+import com.tracker.workoutdef.domain.WorkoutDefName;
 
 import java.util.Optional;
 

@@ -1,7 +1,7 @@
-package com.tracker.definition.domain;
+package com.tracker.workoutdef.domain;
 
 import com.tracker.common.domain.StringValueObject;
-import com.tracker.definition.exception.WorkoutDefNameLengthException;
+import com.tracker.workoutdef.exception.WorkoutDefNameLengthException;
 
 /**
  * Value object that represents a note of a workout definition.

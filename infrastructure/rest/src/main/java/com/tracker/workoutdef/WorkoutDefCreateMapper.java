@@ -1,6 +1,6 @@
-package com.tracker;
+package com.tracker.workoutdef;
 
-import com.tracker.definition.application.WorkoutDefCreateCommand;
+import com.tracker.workoutdef.application.WorkoutDefCreateCommand;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;

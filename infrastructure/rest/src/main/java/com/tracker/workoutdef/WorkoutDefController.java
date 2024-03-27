@@ -1,4 +1,4 @@
-package com.tracker;
+package com.tracker.workoutdef;
 
 import com.cloudogu.cb.CommandBus;
 import org.springframework.http.HttpStatus;

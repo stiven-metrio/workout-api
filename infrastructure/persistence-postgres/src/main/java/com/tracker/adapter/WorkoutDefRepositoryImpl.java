@@ -1,9 +1,9 @@
 package com.tracker.adapter;
 
-import com.tracker.definition.IWorkoutDefRepository;
-import com.tracker.definition.domain.WorkoutDef;
-import com.tracker.definition.domain.WorkoutDefId;
-import com.tracker.definition.domain.WorkoutDefName;
+import com.tracker.workoutdef.IWorkoutDefRepository;
+import com.tracker.workoutdef.domain.WorkoutDef;
+import com.tracker.workoutdef.domain.WorkoutDefId;
+import com.tracker.workoutdef.domain.WorkoutDefName;
 import com.tracker.entity.WorkoutDefEntity;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,15 +1,15 @@
-package com.tracker;
+package com.tracker.workoutdef.create;
 
-import com.tracker.definition.IWorkoutDefRepository;
-import com.tracker.definition.application.WorkoutDefCreateCommand;
-import com.tracker.definition.domain.WorkoutDef;
-import com.tracker.definition.domain.WorkoutDefCategory;
-import com.tracker.definition.domain.WorkoutDefId;
-import com.tracker.definition.domain.WorkoutDefName;
-import com.tracker.definition.domain.WorkoutDefNote;
-import com.tracker.definition.domain.WorkoutDefType;
-import com.tracker.definition.exception.WorkoutDefIdExistsException;
-import com.tracker.definition.exception.WorkoutDefNameExistsException;
+import com.tracker.workoutdef.IWorkoutDefRepository;
+import com.tracker.workoutdef.application.WorkoutDefCreateCommand;
+import com.tracker.workoutdef.domain.WorkoutDef;
+import com.tracker.workoutdef.domain.WorkoutDefCategory;
+import com.tracker.workoutdef.domain.WorkoutDefId;
+import com.tracker.workoutdef.domain.WorkoutDefName;
+import com.tracker.workoutdef.domain.WorkoutDefNote;
+import com.tracker.workoutdef.domain.WorkoutDefType;
+import com.tracker.workoutdef.exception.WorkoutDefIdExistsException;
+import com.tracker.workoutdef.exception.WorkoutDefNameExistsException;
 
 /**
  * Implementation of the {@link WorkoutDefCreate} use case

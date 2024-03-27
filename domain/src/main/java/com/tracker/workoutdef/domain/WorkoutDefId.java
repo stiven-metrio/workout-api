@@ -1,4 +1,4 @@
-package com.tracker.definition.domain;
+package com.tracker.workoutdef.domain;
 
 import com.tracker.common.domain.IdentifierValueObject;
 

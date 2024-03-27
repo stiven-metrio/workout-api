@@ -1,8 +1,8 @@
-package com.tracker.definition.domain;
+package com.tracker.workoutdef.domain;
 
 import com.tracker.common.domain.StringValueObject;
-import com.tracker.definition.exception.WorkoutDefCategoryLengthException;
-import com.tracker.definition.exception.WorkoutDefCategoryNullOrEmptyException;
+import com.tracker.workoutdef.exception.WorkoutDefCategoryLengthException;
+import com.tracker.workoutdef.exception.WorkoutDefCategoryNullOrEmptyException;
 
 /**
  * Value object that represents the category of a workout definition.

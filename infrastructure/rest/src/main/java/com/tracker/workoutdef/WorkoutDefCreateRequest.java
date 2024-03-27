@@ -1,6 +1,6 @@
-package com.tracker;
+package com.tracker.workoutdef;
 
-import com.tracker.definition.application.WorkoutDefCreateCommand;
+import com.tracker.workoutdef.application.WorkoutDefCreateCommand;
 
 import java.io.Serial;
 import java.io.Serializable;

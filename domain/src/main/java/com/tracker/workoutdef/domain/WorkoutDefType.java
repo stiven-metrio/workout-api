@@ -1,8 +1,8 @@
-package com.tracker.definition.domain;
+package com.tracker.workoutdef.domain;
 
 import com.tracker.common.domain.StringValueObject;
-import com.tracker.definition.exception.WorkoutDefTypeInvalidException;
-import com.tracker.definition.exception.WorkoutDefTypeNullOrEmptyException;
+import com.tracker.workoutdef.exception.WorkoutDefTypeInvalidException;
+import com.tracker.workoutdef.exception.WorkoutDefTypeNullOrEmptyException;
 
 import java.util.Arrays;
 

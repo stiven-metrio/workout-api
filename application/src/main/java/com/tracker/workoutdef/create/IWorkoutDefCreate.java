@@ -1,7 +1,7 @@
-package com.tracker;
+package com.tracker.workoutdef.create;
 
-import com.tracker.definition.application.WorkoutDefCreateCommand;
-import com.tracker.definition.domain.WorkoutDefId;
+import com.tracker.workoutdef.application.WorkoutDefCreateCommand;
+import com.tracker.workoutdef.domain.WorkoutDefId;
 
 /**
  * Interface for creating a new workout definition.

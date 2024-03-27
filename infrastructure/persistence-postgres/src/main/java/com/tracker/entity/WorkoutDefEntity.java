@@ -1,11 +1,11 @@
 package com.tracker.entity;
 
-import com.tracker.definition.domain.WorkoutDef;
-import com.tracker.definition.domain.WorkoutDefCategory;
-import com.tracker.definition.domain.WorkoutDefId;
-import com.tracker.definition.domain.WorkoutDefName;
-import com.tracker.definition.domain.WorkoutDefNote;
-import com.tracker.definition.domain.WorkoutDefType;
+import com.tracker.workoutdef.domain.WorkoutDef;
+import com.tracker.workoutdef.domain.WorkoutDefCategory;
+import com.tracker.workoutdef.domain.WorkoutDefId;
+import com.tracker.workoutdef.domain.WorkoutDefName;
+import com.tracker.workoutdef.domain.WorkoutDefNote;
+import com.tracker.workoutdef.domain.WorkoutDefType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

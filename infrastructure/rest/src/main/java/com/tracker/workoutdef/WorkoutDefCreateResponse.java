@@ -1,4 +1,4 @@
-package com.tracker;
+package com.tracker.workoutdef;
 
 import java.io.Serial;
 import java.io.Serializable;
