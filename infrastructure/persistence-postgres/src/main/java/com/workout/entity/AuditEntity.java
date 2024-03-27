@@ -13,6 +13,11 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
 
+/**
+ * Base entity class for audit-related fields such as creation and modification information.
+ * <p>
+ * This class serves as a base for entities that need to track creation and modification metadata.
+ */
 @Getter
 @Setter
 @MappedSuperclass

@@ -9,6 +9,11 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
+/**
+ * Entity class representing a workout definition.
+ * <p>
+ * This class represents a workout definition entity in the database.
+ */
 @Entity
 @Table(name = "WORKOUT_DEF")
 @Getter
@@ -34,6 +39,12 @@ public class WorkoutDefEntity extends AuditEntity implements Serializable {
 	@Column(length = 300)
 	private String note;
 
+	/**
+	 * Converts a WorkoutDef Entity to a WorkoutDef domain object.
+	 *
+	 * @param workoutDefEntity The WorkoutDefEntity to convert.
+	 * @return The corresponding WorkoutDef domain object.
+	 */
 	public static WorkoutDef workoutDefEntityToWorkoutDef(WorkoutDefEntity workoutDefEntity) {
 		return new WorkoutDef(
 			new WorkoutDefId(workoutDefEntity.getId()),
@@ -44,6 +55,12 @@ public class WorkoutDefEntity extends AuditEntity implements Serializable {
 		);
 	}
 
+	/**
+	 * Converts a WorkoutDef domain object to a WorkoutDef entity.
+	 *
+	 * @param workoutDef The WorkoutDef to convert.
+	 * @return The corresponding WorkoutDef entity.
+	 */
 	public static WorkoutDefEntity workoutDefToWorkoutDefEntity(WorkoutDef workoutDef) {
 		return WorkoutDefEntity.builder()
 			.id(workoutDef.getId().getValue())
