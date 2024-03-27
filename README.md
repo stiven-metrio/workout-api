@@ -28,3 +28,6 @@
 6) Click on Connection tab.
 7) Set the host name as **db** (this is the host name in the docker compose file), username as **postgres** (default one), and the password in the docker compose file.
 8) Save and enjoy.
+
+## Hexagonal Architecture
+- Reference: https://github.com/hirannor/spring-boot-hexagonal-architecture/tree/master

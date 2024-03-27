@@ -1,0 +1,39 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1bf4c6a8-56d9-4242-b886-c5da83041593
+      author: stivenmetrio
+      changes:
+        - createTable:
+            tableName: WORKOUT_DEF
+            columns:
+              - column:
+                  name: id
+                  type: varchar(36)
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: varchar(60)
+                  constraints:
+                    unique: true
+              - column:
+                  name: type
+                  type: varchar(60)
+              - column:
+                  name: category
+                  type: varchar(60)
+              - column:
+                  name: note
+                  type: varchar(300)
+              - column:
+                  name: createddate
+                  type: TIMESTAMP
+              - column:
+                  name: createdby
+                  type: varchar(70)
+              - column:
+                  name: modifieddate
+                  type: TIMESTAMP
+              - column:
+                  name: modifiedby
+                  type: varchar(70)
