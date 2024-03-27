@@ -6,10 +6,18 @@ import com.workout.definition.domain.*;
 import com.workout.definition.exception.WorkoutDefIdExistsException;
 import com.workout.definition.exception.WorkoutDefNameExistsException;
 
+/**
+ * Implementation of the {@link WorkoutDefCreate} use case
+ */
 public class WorkoutDefCreate implements IWorkoutDefCreate {
 
 	private final IWorkoutDefRepository workoutDefRepository;
 
+	/**
+	 * Constructs a new WorkoutDefCreate use case instance.
+	 *
+	 * @param workoutDefRepository The repository for accessing and persisting workout definitions.
+	 */
 	public WorkoutDefCreate(IWorkoutDefRepository workoutDefRepository) {
 		this.workoutDefRepository = workoutDefRepository;
 	}
