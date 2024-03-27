@@ -2,7 +2,12 @@ package com.tracker;
 
 import com.tracker.definition.IWorkoutDefRepository;
 import com.tracker.definition.application.WorkoutDefCreateCommand;
-import com.tracker.definition.domain.*;
+import com.tracker.definition.domain.WorkoutDef;
+import com.tracker.definition.domain.WorkoutDefCategory;
+import com.tracker.definition.domain.WorkoutDefId;
+import com.tracker.definition.domain.WorkoutDefName;
+import com.tracker.definition.domain.WorkoutDefNote;
+import com.tracker.definition.domain.WorkoutDefType;
 import com.tracker.definition.exception.WorkoutDefIdExistsException;
 import com.tracker.definition.exception.WorkoutDefNameExistsException;
 
