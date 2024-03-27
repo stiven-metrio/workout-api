@@ -32,7 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
-/docs/pgadmin-data
-/docs/postgres_data
+/docker/pgadmin-data
+/docker/postgres_data
 
 .editorconfig
