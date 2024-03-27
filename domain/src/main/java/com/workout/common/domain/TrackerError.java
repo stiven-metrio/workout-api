@@ -5,6 +5,11 @@ import lombok.AllArgsConstructor;
 import java.io.Serial;
 import java.io.Serializable;
 
+/**
+ * Represents an error encountered in the tracker system.
+ * <p>
+ * This class encapsulates information about the error, including error message, description, error code, and additional data.
+ */
 @AllArgsConstructor
 public class TrackerError implements Serializable {
 

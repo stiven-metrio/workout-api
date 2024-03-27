@@ -3,6 +3,12 @@ package com.workout.definition.domain;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+/**
+ * Represents a workout definition domain object in the system.
+ * <p>
+ * This class encapsulates information about a workout definition.
+ * Instances of this class are immutable once constructed.
+ */
 @Getter
 @AllArgsConstructor
 public final class WorkoutDef {
