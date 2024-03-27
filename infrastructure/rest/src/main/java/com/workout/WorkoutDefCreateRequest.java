@@ -1,11 +1,21 @@
 package com.workout;
 
-import lombok.Getter;
+import com.workout.definition.application.WorkoutDefCreateCommand;
 
-@Getter
-public class WorkoutDefCreateRequest {
-    private String name;
-    private String type;
-    private String category;
-    private String note;
+import java.io.Serial;
+import java.io.Serializable;
+
+public record WorkoutDefCreateRequest(
+        String name,
+        String type,
+        String category,
+        String note
+) implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = -1807410314357528744L;
+
+    public WorkoutDefCreateCommand toCommand() {
+        return WorkoutDefCreateMapper.INSTANCE.mapToCommand(this);
+    }
 }
